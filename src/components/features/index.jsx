@@ -50,8 +50,7 @@ export const Feature = () => {
                         </div>
                         <h6 className="mb-2 font-semibold leading-5 text-indigo-400">Mentorship <br /> Sessions</h6>
                         <p className="text-sm text-gray-300">
-                            We store your inventory closer<br /> to your customers using our<br /> vast geographical strong reach.
-                        </p>
+                            the guidance provided by a mentor,<br /> especially an experienced person<br /> in a company or educational institution.      </p>
                     </div>
                     <div className="max-w-md">
                         <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-gradient-to-r from-green-400 via-pink-500 to-purple-500">
@@ -71,7 +70,7 @@ export const Feature = () => {
                         </div>
                         <h6 className="mb-2 font-semibold text-indigo-400 leading-5">Hands on <br /> Projects</h6>
                         <p className="text-sm text-gray-300">
-                            Single dashboard to manage & reconcile<br /> all your online and offline orders.
+                            “hands-on” projects such as research,<br /> case studies, or real-life activities
                         </p>
                     </div>
                     <div className="max-w-md">
@@ -92,7 +91,7 @@ export const Feature = () => {
                         </div>
                         <h6 className="mb-2 font-semibold text-indigo-400 leading-5">Blogs on lastest tech</h6>
                         <p className="text-sm text-gray-300">
-                            Ensure 8-16% reduction in cost<br /> structure with strictly following<br /> industry optimized processes.
+                            Cover latest tech<br /> through blogs<br /> and documentation
                         </p>
                     </div>
 

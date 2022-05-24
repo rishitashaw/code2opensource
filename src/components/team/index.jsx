@@ -48,12 +48,12 @@ export const Team = () => {
 
                             <div class="p-4 lg:w-1/2">
                                 <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                                    <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://1.bp.blogspot.com/-FFy_qjM-Mgo/YPfBEshmB6I/AAAAAAAAFhc/2Zwqe8zspxoWkYIjLpfurVBaJwzCn47igCLcBGAsYHQ/s739/images%2B%25289%2529.jpeg" />
+                                    <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://media-exp1.licdn.com/dms/image/C5603AQGj6O0tSJ3Vhg/profile-displayphoto-shrink_800_800/0/1645179573524?e=1658966400&v=beta&t=vFDGHUh1Vl3yKvkoLADnXWFMnc9s0aKZ5EgCtmC7slg" />
                                     <div class="flex-grow sm:pl-8">
                                         <h2 class="title-font font-medium text-lg text-gray-200">Anisha Ghosh</h2>
-                                        <h3 class="text-indigo-400 mb-3">lorem Ipsum</h3>
+                                        <h3 class="text-indigo-400 mb-3">Coder</h3>
                                         <p class="mb-4 text-gray-400">
-                                            lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                            Make it or break it; but never fake it.
                                         </p>
                                         <span class="inline-flex">
                                             <a class="text-indigo-400">
@@ -77,12 +77,12 @@ export const Team = () => {
                             </div>
                             <div class="p-4 lg:w-1/2">
                                 <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                                    <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://1.bp.blogspot.com/-FFy_qjM-Mgo/YPfBEshmB6I/AAAAAAAAFhc/2Zwqe8zspxoWkYIjLpfurVBaJwzCn47igCLcBGAsYHQ/s739/images%2B%25289%2529.jpeg" />
+                                    <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://pbs.twimg.com/profile_images/1496134770253832193/-JURUcSL_400x400.jpg" />
                                     <div class="flex-grow sm:pl-8">
                                         <h2 class="title-font font-medium text-lg text-gray-200">Rishita Shaw</h2>
-                                        <h3 class="text-indigo-400 mb-3">lorem Ipsum</h3>
+                                        <h3 class="text-indigo-400 mb-3">Coder</h3>
                                         <p class="mb-4 text-gray-400">
-                                            lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                            Trying to by the nicest and hardest working person in the room.
 
                                         </p>
                                         <span class="inline-flex">

@@ -70,7 +70,7 @@ export default function Work() {
                                 <div class="grid-block">
                                     <div class="tile">
                                         <a class="tile-link" href="#">
-                                            <img class="tile-img tile-img3" src="https://c.pxhere.com/photos/64/e2/fractal_digital_art_computer_graphics_abstract_fantasy_art_star_cosmos-1107097.jpg!s2" alt="Image" />
+                                            <img class="tile-img tile-img3" src="https://3udno63459u23yboa6366rls-wpengine.netdna-ssl.com/wp-content/uploads/2018/06/Mr.Xerty-Feature.jpg" alt="Image" />
                                         </a>
                                     </div>
                                 </div>
@@ -94,7 +94,7 @@ export default function Work() {
                                 <div class="grid-block">
                                     <div class="tile">
                                         <a class="tile-link" href="#">
-                                            <img class="tile-img tile-img6" src="https://wallpapercrafter.com/th800/149384-digital-digital-art-artwork-illustration-drawing-painting-digital-painting-landscape-dark-planet-fantasy-art-science-fiction-sky-calm-krita-wood-apocalyptic-ruin-ruins.jpg" alt="Image" />
+                                            <img class="tile-img tile-img6" src="http://database.az/upload/Image/posts/11-2019/posts-7686-en.jpg" alt="Image" />
                                         </a>
                                     </div>
                                 </div>

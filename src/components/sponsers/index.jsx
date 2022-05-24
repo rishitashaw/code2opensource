@@ -38,15 +38,12 @@ export const Sponsor = () => {
                         </div>
                         <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
                             Building trust and enthusiasm among
-                            <br className="hidden md:block" />
                             <span className="inline-block bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-pink-500 to-purple-500">
-                                young students
+                                &nbsp; young students
                             </span>
                         </h2>
                         <p className="text-base text-gray-300 md:text-lg">
-                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                            quae. explicabo.
+                            Stimulated productivity, Engagement in critical situations, Increased altruism and extra-role behaviour is our primary target.
                         </p>
                     </div>
 

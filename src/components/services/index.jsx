@@ -48,7 +48,7 @@ export const Services = () => {
                     <div class="card a">
                         <span></span>
                         <div class="content">
-                            <h2>Learn about trendy tech stacks</h2>
+                            <h2>Development</h2>
                             <p>
                                 We’ll help you find the right tech stack for your project.
 
@@ -60,7 +60,7 @@ export const Services = () => {
                     <div class="card b">
                         <span></span>
                         <div class="content">
-                            <h2>Learn about trendy tech stacks</h2>
+                            <h2>Devops</h2>
                             <p>
                                 We’ll help you find the right tech stack for your project.
 
@@ -72,7 +72,7 @@ export const Services = () => {
                     <div class="card c">
                         <span></span>
                         <div class="content">
-                            <h2>Learn about trendy tech stacks</h2>
+                            <h2>Security</h2>
                             <p>
                                 We’ll help you find the right tech stack for your project.
 
