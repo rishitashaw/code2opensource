@@ -1,6 +1,50 @@
+import React, { useRef, useState } from 'react';
+import emailjs from '@emailjs/browser';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 export const Contact = () => {
+    const form = useRef();
+
+    const [firstName, setFirstName] = useState('');
+    const [email, setEmail] = useState('');
+    const [message, setMessage] = useState('');
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_u6xuc28', 'template_kbevx7k', form.current, 'FmR0SVVbpNRKCo33L')
+            .then((result) => {
+                console.log(result.text);
+                toast(result.text, {
+                    position: "top-right",
+                    autoClose: 5000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                });
+            }, (error) => {
+                console.log(error.text);
+                toast(error.text, {
+                    position: "top-right",
+                    autoClose: 5000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                });
+            });
+        setFirstName('');
+        setMessage('');
+        setEmail('');
+    };
+
     return (
         <div className="relative ">
+            <ToastContainer />
             <img
                 src="https://images.pexels.com/photos/3228766/pexels-photo-3228766.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
                 className="absolute inset-0 object-cover w-full h-full"
@@ -46,39 +90,26 @@ export const Contact = () => {
                                 <h3 className="mb-4 text-xl font-semibold sm:text-center sm:mb-6 sm:text-2xl">
                                     Leave a Message
                                 </h3>
-                                <form>
+                                <form ref={form} onSubmit={sendEmail}>
                                     <div className="mb-1 sm:mb-2">
                                         <label
                                             htmlFor="firstName"
                                             className="inline-block mb-1 font-medium"
                                         >
-                                            First name
+                                            Your name
                                         </label>
                                         <input
-                                            placeholder="John"
+                                            placeholder="John Doe"
                                             required
                                             type="text"
                                             className="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
                                             id="firstName"
-                                            name="firstName"
+                                            name="user_name"
+                                            onChange={event => setFirstName(event.target.value)}
+                                            value={firstName}
                                         />
                                     </div>
-                                    <div className="mb-1 sm:mb-2">
-                                        <label
-                                            htmlFor="lastName"
-                                            className="inline-block mb-1 font-medium"
-                                        >
-                                            Last name
-                                        </label>
-                                        <input
-                                            placeholder="Doe"
-                                            required
-                                            type="text"
-                                            className="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
-                                            id="lastName"
-                                            name="lastName"
-                                        />
-                                    </div>
+
                                     <div className="mb-1 sm:mb-2">
                                         <label
                                             htmlFor="email"
@@ -92,7 +123,9 @@ export const Contact = () => {
                                             type="text"
                                             className="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
                                             id="email"
-                                            name="email"
+                                            name="user_email"
+                                            onChange={event => setEmail(event.target.value)}
+                                            value={email}
                                         />
                                     </div>
                                     <div className="mb-1 sm:mb-2">
@@ -108,12 +141,14 @@ export const Contact = () => {
                                             type="text"
                                             className="flex-grow w-full h-24 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
                                             id="email"
-                                            name="email"
+                                            name="message"
+                                            onChange={event => setMessage(event.target.value)}
+                                            value={message}
                                         />
                                     </div>
                                     <div className="mt-4 mb-2 sm:mb-4">
                                         <button
-                                            type="submit"
+                                            type="submit" value="Send"
                                             className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-gradient-to-r from-purple-800 to-green-500 hover:from-pink-500 hover:to-green-500  py-2  focus:ring transform  hover:scale-105  ease-in-out focus:shadow-outline focus:outline-none"
                                         >
                                             Subscribe
