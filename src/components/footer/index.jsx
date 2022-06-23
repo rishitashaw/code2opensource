@@ -30,29 +30,16 @@ export const Footer = () => {
                     </a>
                     <div className="mt-6 lg:max-w-sm">
                         <p className="text-sm text-gray-200">
-                            One Stop place to  Build & Share  amazing projects!
+                            One Stop place to develop and grow your skills!
                         </p>
-                        <p className="mt-4 text-sm text-gray-200">
-                            A place to share your projects and learn from other developers.
-
-                        </p>
+                       
                     </div>
                 </div>
                 <div className="space-y-2 text-sm">
                     <p className="text-base font-bold tracking-wide text-gray-400">
                         Contacts
                     </p>
-                    <div className="flex">
-                        <p className="mr-1 text-gray-200">Phone:</p>
-                        <a
-                            href="tel:850-123-5021"
-                            aria-label="Our phone"
-                            title="Our phone"
-                            className="transition-colors duration-300 text-indigo-400 hover:text-deep-purple-800"
-                        >
-                            850-123-5021
-                        </a>
-                    </div>
+                   
                     <div className="flex">
                         <p className="mr-1 text-gray-200">Email:</p>
                         <a
@@ -61,22 +48,10 @@ export const Footer = () => {
                             title="Our email"
                             className="transition-colors duration-300 text-indigo-400 hover:text-deep-purple-800"
                         >
-                            info@lorem.mail
+                            coode2opensource@gmail.com
                         </a>
                     </div>
-                    <div className="flex">
-                        <p className="mr-1 text-gray-200">Address:</p>
-                        <a
-                            href="https://www.google.com/maps"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            aria-label="Our address"
-                            title="Our address"
-                            className="transition-colors duration-300 text-indigo-400 hover:text-deep-purple-800"
-                        >
-                            India
-                        </a>
-                    </div>
+                   
                 </div>
                 <div>
                     <span className="text-base font-bold tracking-wide text-gray-400">
@@ -110,7 +85,7 @@ export const Footer = () => {
                         </a>
                     </div>
                     <p className="mt-4 text-sm text-gray-500">
-                        Developed by Aditya Mitra,<br /> Rishita Shaw, and Anisha Ghosh
+                        Developed by Anisha Ghosh &<br /> Rishita Shaw
                     </p>
                 </div>
             </div>
