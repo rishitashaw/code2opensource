@@ -65,7 +65,7 @@ export const Step = () => {
                         </p>
                     </div>
                     <p className="text-sm text-gray-300">
-                        Explore the open source<br /> community and projects. <br />Learn more about the <br />source code and tech stacks.
+                        Be an active member of  <br /> community, events and projects. <br />
                     </p>
                 </div>
                 <div className="relative p-5 duration-300 transform bg-gray-900 opacity-75 border-2 rounded shadow-sm border-deep-purple-accent-700 hover:-translate-y-2">
@@ -76,7 +76,7 @@ export const Step = () => {
                         <p className="text-lg text-indigo-400 font-bold leading-5">Step 3</p>
                     </div>
                     <p className="text-sm text-gray-300">
-                        Contribute or provide<br /> technical support!
+                        Stand a chance to become<br /> a Mentor based on your<br/> performance and participation!
                     </p>
                     <p className="absolute top-0 right-0 flex items-center justify-center w-8 h-8 -mt-4 -mr-4 font-bold rounded-full bg-deep-purple-accent-400 sm:-mt-5 sm:-mr-5 sm:w-10 sm:h-10">
                         <svg
