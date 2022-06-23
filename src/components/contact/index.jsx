@@ -100,30 +100,17 @@ export const Contact = () => {
                                             Your name
                                         </label>
                                         <input
-                                            placeholder=""
+                                            placeholder="John Doe"
                                             required
                                             type="text"
                                             className="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
                                             id="firstName"
-                                            name="firstName"
+                                            name="user_name"
+                                            onChange={event => setFirstName(event.target.value)}
+                                            value={firstName}
                                         />
                                     </div>
-                                    <div className="mb-1 sm:mb-2">
-                                        <label
-                                            htmlFor="lastName"
-                                            className="inline-block mb-1 font-medium"
-                                        >
-                                            Last name
-                                        </label>
-                                        <input
-                                            placeholder=""
-                                            required
-                                            type="text"
-                                            className="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
-                                            id="lastName"
-                                            name="lastName"
-                                        />
-                                    </div>
+
 
                                     <div className="mb-1 sm:mb-2">
                                         <label
@@ -133,13 +120,14 @@ export const Contact = () => {
                                             E-mail
                                         </label>
                                         <input
-                                            placeholder=""
+                                            placeholder="johndoe@example.com"
                                             required
                                             type="text"
                                             className="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
                                             id="email"
-                                            name="email"
-
+                                            name="user_email"
+                                            onChange={event => setEmail(event.target.value)}
+                                            value={email}
                                         />
                                     </div>
                                     <div className="mb-1 sm:mb-2">
