@@ -38,7 +38,7 @@ export const Services = () => {
                         </span>
                     </h2>
                     <p class="text-base text-indigo-400 md:text-lg">
-                        We believe that everyone should have access to the best
+                        
                     </p>
                 </div>
                 <div class="grid max-w-screen-md gap-10 md:grid-cols-2 sm:mx-auto">
@@ -50,34 +50,33 @@ export const Services = () => {
                         <div class="content">
                             <h2>Development</h2>
                             <p>
-                                We’ll help you find the right tech stack for your project.
+                                We’ll guide you find the right tech stack for your project.
 
                             </p>
-                            <a href="#">Read More</a>
+                            
                         </div>
                     </div>
 
                     <div class="card b">
                         <span></span>
                         <div class="content">
-                            <h2>Devops</h2>
+                            <h2>Right from the Basics</h2>
                             <p>
-                                We’ll help you find the right tech stack for your project.
-
+                            Learn about blockchain, cyber security, full-stack development and many more 
                             </p>
-                            <a href="#">Read More</a>
+                            
                         </div>
                     </div>
 
                     <div class="card c">
                         <span></span>
                         <div class="content">
-                            <h2>Security</h2>
+                            <h2>Events & Workshops</h2>
                             <p>
-                                We’ll help you find the right tech stack for your project.
-
+                            We will conduct interaactive events and workshops on upcoming technologies 
+                            
                             </p>
-                            <a href="#">Read More</a>
+                            
                         </div>
                     </div>
 
