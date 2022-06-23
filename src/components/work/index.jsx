@@ -22,24 +22,24 @@ export default function Work() {
 
                             </h1>
                             <p class="leading-normal text-base md:text-2xl mb-8 text-center md:text-left">
-                                We not only promote OpenSource but also provied a platform to share your projects and learn from other developers. We are a community of developers who love to learn and share.
+                            We would dive deep in topics of cloud computing,cyber security, blockchain and many more. This will provide you a great platform and mentors to transform your ideas into interesting and out-of-the box projects.
                             </p>
                             <div class="grid grid-cols-2 gap-4 text-white">
                                 <div class="...">
-                                    <h3 class="text-base font-bold"><i class="fa-solid fa-check"></i> One point solution</h3>
+                                    <h3 class="text-base font-bold"><i class="fa-solid fa-check"></i> Mentorship</h3>
                                 </div>
                                 <div class="...">
-                                    <h3 class="text-base font-bold"><i class="fa-solid fa-check"></i> Flexibility</h3>
+                                    <h3 class="text-base font-bold"><i class="fa-solid fa-check"></i> Events & Workshops</h3>
                                 </div>
 
                             </div>
                             <div class="grid grid-cols-2 gap-4 text-white">
                                 <div class="...">
-                                    <h3 class="text-base font-bold"><i class="fa-solid fa-check"></i> New Technology</h3>
+                                    <h3 class="text-base font-bold"><i class="fa-solid fa-check"></i> Hands-on-projects</h3>
                                 </div>
                                 <div class="...">
 
-                                    <h3 class="text-base font-bold"><i class="fa-solid fa-check"></i> New Projects</h3>
+                                    <h3 class="text-base font-bold"><i class="fa-solid fa-check"></i> Chance to become a mentor </h3>
                                 </div>
 
                             </div>
