@@ -50,22 +50,24 @@ export default function Header() {
                                 A place to learn about opportunities, resources, hackathon strategies and upcoming technologies from other developers.
                             </p>
 
-                           
-                            <form action="https://google.com">
-                                <ul class="mb-4">
-                                    <li class="block text-blue-300 py-2 font-bold mb-2" for="emailaddress">
-                                          
-                                        <a
-                                        href="https://docs.google.com/forms/d/e/1FAIpQLScNdobaOd5sIXBZnbeHH8E7exctfL0s3UjruXxIg-EdvRj1GA/viewform?usp=sf_link"
-                                        style={{ color: "text-blue-300" }}
-                                        target="_blank" 
-                                        rel="noopener noreferrer"
-                                      >
-                                     Click here to register for Code2OpenSource
-                                       </a>
-                                    </li>
-                                    </ul>
-                                   
+
+                            <form class="bg-gray-900 opacity-75 w-full shadow-lg rounded-lg px-8 pt-6 pb-8 mb-4">
+                                <div class="mb-4">
+                                    <label class="block text-blue-300 py-2 font-bold mb-2" for="emailaddress">
+                                        Be a part of our awesome community and kickstart your open source journey!
+                                    </label>
+
+                                </div>
+
+                                <a href="https://docs.google.com/forms/u/4/d/e/1FAIpQLScg2qKrOcLpfEc1DEo88SsakDOiitG5DNY9j5Jr0QG_Ez8FJA/viewform?usp=sf_link"
+                                    target="_blank" class=" flex items-center justify-between pt-4" rel="noreferrer">
+                                    <button
+
+                                        class="bg-gradient-to-r from-purple-800 to-green-500 hover:from-pink-500 hover:to-green-500 text-white font-bold py-2 px-4 rounded focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
+                                        type="button">
+                                        Register Now
+                                    </button>
+                                </a>
                             </form>
                         </div>
 
